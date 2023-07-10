@@ -23,8 +23,8 @@ function adicionaLinha(){
         telefone.push(inputTelefoneContato.value);
 
         let linha = '<tr>';
-        linha += `<td> ${inputNomeContato.value}<td>`;
-        linha += `<td> ${inputTelefoneContato.value}<td>`;
+        linha += `<td> ${inputNomeContato.value}</td>`;
+        linha += `<td> ${inputTelefoneContato.value}</td>`;
         linha += '</tr>';
         linhas += linha;
     }
